@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <div className="fixed top-0 w-full bg-black/70 backdrop-blur-md z-50">
@@ -5,10 +7,9 @@ export default function Navbar() {
         <h1 className="text-xl font-bold">SHREEJI ART</h1>
 
         <div className="space-x-6 hidden md:flex">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <Link href="/">Home</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/projects">Projects</Link>
         </div>
       </div>
     </div>
