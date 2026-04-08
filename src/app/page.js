@@ -16,7 +16,7 @@ export default function Home() {
           Industrial strength meets creative excellence. Indoor, outdoor and terrace signage solutions.
         </p>
 
-        <button className="bg-white text-black px-6 py-3 rounded-full font-semibold hover:scale-105 transition">
+        <button className="bg-white text-black px-6 py-3 rounded-full font-semibold hover:scale-105 transition duration-300 ease-in-out">
           Get a Quote
         </button>
       </section>
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             {/* Card 1 */}
-            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition duration-300 ease-in-out duration-300 ease-in-out">
               <h3 className="text-xl font-semibold mb-2">LED Sign Boards</h3>
               <p className="text-gray-400">
                 Bright, energy-efficient signage for indoor and outdoor branding.
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
 
             {/* Card 2 */}
-            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition duration-300 ease-in-out">
               <h3 className="text-xl font-semibold mb-2">Acrylic Signage</h3>
               <p className="text-gray-400">
                 Modern and sleek signage solutions with premium finish.
@@ -70,7 +70,7 @@ export default function Home() {
             </div>
 
             {/* Card 3 */}
-            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition duration-300 ease-in-out">
               <h3 className="text-xl font-semibold mb-2">3D Letter Signs</h3>
               <p className="text-gray-400">
                 Dimensional lettering for a bold and professional look.
@@ -78,7 +78,7 @@ export default function Home() {
             </div>
 
             {/* Card 4 */}
-            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition duration-300 ease-in-out">
               <h3 className="text-xl font-semibold mb-2">Metal Signage</h3>
               <p className="text-gray-400">
                 Stainless steel and brass signage for durability and elegance.
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
 
             {/* Card 5 */}
-            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition duration-300 ease-in-out">
               <h3 className="text-xl font-semibold mb-2">Flex Boards</h3>
               <p className="text-gray-400">
                 Cost-effective and versatile signage for promotions.
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
 
             {/* Card 6 */}
-            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition duration-300 ease-in-out">
               <h3 className="text-xl font-semibold mb-2">Custom Signage</h3>
               <p className="text-gray-400">
                 Tailored solutions based on your brand and requirements.
