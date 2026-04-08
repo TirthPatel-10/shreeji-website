@@ -43,6 +43,68 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SERVICES SECTION */}
+      <section className="py-20 bg-black text-white">
+        <div className="max-w-6xl mx-auto px-6">
+
+          <h2 className="text-4xl font-bold text-center mb-12">
+            Our Services
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            {/* Card 1 */}
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+              <h3 className="text-xl font-semibold mb-2">LED Sign Boards</h3>
+              <p className="text-gray-400">
+                Bright, energy-efficient signage for indoor and outdoor branding.
+              </p>
+            </div>
+
+            {/* Card 2 */}
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+              <h3 className="text-xl font-semibold mb-2">Acrylic Signage</h3>
+              <p className="text-gray-400">
+                Modern and sleek signage solutions with premium finish.
+              </p>
+            </div>
+
+            {/* Card 3 */}
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+              <h3 className="text-xl font-semibold mb-2">3D Letter Signs</h3>
+              <p className="text-gray-400">
+                Dimensional lettering for a bold and professional look.
+              </p>
+            </div>
+
+            {/* Card 4 */}
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+              <h3 className="text-xl font-semibold mb-2">Metal Signage</h3>
+              <p className="text-gray-400">
+                Stainless steel and brass signage for durability and elegance.
+              </p>
+            </div>
+
+            {/* Card 5 */}
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+              <h3 className="text-xl font-semibold mb-2">Flex Boards</h3>
+              <p className="text-gray-400">
+                Cost-effective and versatile signage for promotions.
+              </p>
+            </div>
+
+            {/* Card 6 */}
+            <div className="p-6 border border-gray-800 rounded-xl hover:scale-105 transition">
+              <h3 className="text-xl font-semibold mb-2">Custom Signage</h3>
+              <p className="text-gray-400">
+                Tailored solutions based on your brand and requirements.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
     </main>
   );
 }
