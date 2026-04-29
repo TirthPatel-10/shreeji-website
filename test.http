@@ -1,0 +1,11 @@
+POST http://localhost:8081/quote-requests
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aXJ0aDIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NzY1NDE3NzAsImV4cCI6MTc3NjU0NTM3MH0.EDQq6UFPwQZN1SG1N4GQ3zWg8NcmNbUsEoYFAwCsaeI
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "phone": "123456789",
+  "serviceType": "Signage",
+  "message": "Looking for a new sign."
+}
